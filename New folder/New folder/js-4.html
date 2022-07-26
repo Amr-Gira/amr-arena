@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		 
+	</head>
+	<body>
+		<div id="date"></div>
+		<div id="dateTwo"></div>
+		<form>
+			<input type="text" id="aa">
+			<input type="text" id="id">
+		</form>
+		<p> link of count down timer using Date() and getTime()</p>
+		<a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_countdown"> https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_countdown </a> 
+		
+		<p> link of امثلة عامة</p>
+		<a href="https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp"> امثلة عامة </a> 
+		
+		<p> الكود الاتي يقوم باظهار رقم عشوائي ليس محصور بين 0 و 1 </p>
+		<p> Math.floor(Math.random() * 10) </p>
+		<p id="dddd"></p>
+		<p id="num"></p>
+		<script>
+			/* js بعد العيد  */
+			const d = new Date();
+			document.getElementById("date").innerHTML = d;
+			
+			const c = new Date();
+			document.getElementById("dateTwo").innerHTML = c.getTime();
+						
+			const dd = new Date();
+			document.getElementById("aa").value = dd;
+			
+			document.getElementById("dddd").innerHTML = Math.floor(Math.random() * 10);
+			document.getElementById("id").value = Math.floor(Math.random() * 10);
+			
+			let x = 123;
+			document.getElementById("num").innerHTML = 100 + x.toString(); 
+		</script>			
+	</body>
+</html>

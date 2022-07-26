@@ -1,0 +1,60 @@
+/*html{
+    /*
+    background-image: url("assets/photos/as.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    font-family: 'Amiri' , serif;
+    text-align: center;
+    background-attachment: fixed; */
+body {
+    background-image: url("assets/photos/as.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Amiri' , serif;
+    background-attachment: fixed;
+}
+#d{
+    background-image: url("assets/photos/as.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    font-family: 'Amiri' , serif;
+}
+#nav1{
+    background-color:rgba(5, 5, 5, 0.404);
+    margin:auto ;
+    border: 2px ;
+    padding: 20px;
+}
+#tt{
+    background-color:rgba(5, 5, 5, 0.404);
+    margin:auto ;
+    border: 2px ;
+    border-radius: 12px; 
+    padding: 20px;
+}
+h1{
+    color :darkred ;
+}
+p{
+    color: whitesmoke;
+}
+#table{
+    align-content: center;
+}	
+.one_three {
+    background-color: whitesmoke; color: black;
+}
+.two    {
+    background-color: rgb(5, 5, 5); color: white;
+}
+button{
+    border: 2px ;
+    border-radius: 5px; 
+}

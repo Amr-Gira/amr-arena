@@ -1,0 +1,26 @@
+/* body css */
+html  {
+  background: url("assets/image/aaaa.jpg"); /* طريقة اللارافيل */
+  background-color: #cccccc;
+}
+body  {
+  background-image: url("../assets/image/aaaa.jpg"); /* طريقة اللارافيل */
+  background-color: #cccccc;
+}
+table{
+	background-color: red;
+}
+p{
+	color: red;
+	font-size: 28px;
+}
+#ss{
+	color: blue;
+}
+.aa{
+	color: orange;
+	font-size: 35px;
+}
+label.aa{
+	color: green;
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	<head>
+		 
+	</head>
+	<body>
+		<div id="date"></div>
+		<h2>ahmed</h2>
+		<p>ali ali ali</p>
+		<p id="d"></p>
+		<h3 id="h">عنوان </h3>
+		<div id="v"></div>
+		<div id="t"></div>
+		
+		<!-- js ثاني محاضرة -->
+		<!-- 26 كود يستخدم مع السطر -->
+		<div id="test" style="font-size: 30px;color:blue;"></div>		
+		<!-- inline js كود يستخدم لفتح صفحة الطباعة -->
+		<button onclick="window.print()">Print this page</button>
+		<div onclick="window.print()">I'm a div not button </div>
+		<img src="f.jpg" width="24" height="24" onclick="window.alert('انا صورة')">
+		<br>
+		<img src="f.jpg" width="24" height="24" onclick="document.write('انا صورة')">
+		<br>
+		<img src="f.jpg" width="24" height="24" onclick="document.getElementById('test').innerHTML = 5+6;">
+		<br>
+
+		<script>
+			// innerHTML
+			document.getElementById("d").innerHTML = 5+6;
+			document.getElementById("h").innerHTML = "عنوان مختلف تماما";
+			document.getElementById("v").innerHTML = "<button>click me</button>";
+			document.getElementById("t").innerHTML = "<table><tr><th>name</th><th>age</th></tr><tr><td>ali</td><td>20</td></tr></table>";
+			// document.write()
+			document.write(5 + 6);
+			document.write("<br>عنوان مختلف تماما");
+			document.write("<br><button>click me</button>");		
+			document.write("<table id='tt'><tr><th>name</th><th>age</th></tr><tr><td>ali</td><td>20</td></tr></table>");
+			document.getElementById("tt").style.display="none";
+		</script>		
+		<script>
+			/* js ثاني محاضرة
+			   window.alert يستخدم لاخراج بيانات على شكل رسالة
+			   يقوم بتنفيذ العمليات الحسابية  */
+			window.alert(5 + 6);
+			// يقوم بوضع الكلام في الرسالة
+			window.alert("عنوان مختلف تماما");
+			// html لا يتأثر بأكواد 
+			// يقوم باخراجها ككلام
+			window.alert("<br>عنوان مختلف تماما");
+			window.alert("<table id='tt'><tr><th>name</th><th>age</th></tr><tr><td>ali</td><td>20</td></tr></table>");
+			window.alert("<img src='f.jpg'>");
+		</script>		
+		<script>
+			// console.log()
+			console.log(5 + 6);
+			console.log("a");
+			// html لا يتأثر بأكواد 
+			// يقوم باخراجها ككلام
+			console.log("<table id='tt'><tr><th>name</th><th>age</th></tr><tr><td>ali</td><td>20</td></tr></table>");
+			// var = variable  متغير رقمي
+			var a = 5;
+			console.log(a);
+			// متغير من نوع نصوص
+			var b = "ahmed";
+			console.log(b);
+		</script>
+		<script>
+			/* js ثاني محاضرة */
+			var a = 10;
+			let bbb = "ali";
+			const c = "10-11-2000";
+			document.getElementById("date").innerHTML = c;
+			console.log(c);
+		</script>	
+		
+	</body>
+</html>
